@@ -22,7 +22,12 @@
   <link href="css/landing-page.min.css" rel="stylesheet">
 
 <style>
-  
+.center {
+  float: right;
+  width: 300px;
+  padding: 10px;
+}
+
   svg {
     display: block;
   margin-left: auto;
@@ -123,41 +128,37 @@ header .overlay {
         <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-info m-auto text-primary"></i>
+              <p class="center"><a style="text-decoration:none" href=#about><i class="icon-info m-auto text-primary"></i></a></p>
             </div>
             <h3>About</h3>
             <p class="lead mb-0">Learn about the group's mission, why climate solutions are vital, and why evidence synthesis is important.</p><br><br>
-            <p><b><a class="navbar-brand" href="#about">To about</a></b></p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-user m-auto text-primary"></i>
+              <p class="center"><a style="text-decoration:none" href=#team><i class="icon-user m-auto text-primary"></i></a></p>
             </div>
             <h3>The Team</h3>
             <p class="lead mb-0">Find more about the team involved in the Climate Solutions Coordinating Group.</p><br><br>
-            <p><b><a class="navbar-brand" href="#team">To the Team</a></b></p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-envelope m-auto text-primary"></i>
+              <p class="center"><a style="text-decoration:none" href=#resources><i class="icon-drawer m-auto text-primary"></i></a></p>
             </div>
             <h3>Resources</h3>
             <p class="lead mb-0">Information on evidence synthesis, the Campbell Collaboration, and climate change solutions.</p><br><br>
-            <p><b><a class="navbar-brand" href="#resources">To Resources</a></b></p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="features-icons-item mx-auto mb-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
-              <i class="icon-envelope m-auto text-primary"></i>
+              <p class="center"><a style="text-decoration:none" href=#contact><i class="icon-envelope m-auto text-primary"></i></a></p>
             </div>
             <h3>Contact</h3>
             <p class="lead mb-0">Find out how to send us a question, start a climate evidence synthesis, or get involved in our activities.</p><br><br>
-            <p><b><a class="navbar-brand" href="#contact">To contact</a></b></p>
           </div>
         </div>
       </div>
@@ -168,9 +169,10 @@ header .overlay {
   <section class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-
         <div class="col-lg-5 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
         <div class="col-lg-7 order-lg-1 my-auto showcase-text" id=about>
+          <p><a style="text-decoration:none" href=#><i class="fa fa-home fa-2x m-auto text-primary"></i></a></p>
+          <br>
           <h2>About the CSCG</h2>
           <p class="lead mb-0">The mission of the Campbell Coordinating Group on Climate Solutions (CGCS) is to coordinate, facilitate and encourage the production, updating and accessibility of high quality systematic reviews.</p>
           <br>
@@ -182,6 +184,8 @@ header .overlay {
       <div class="row no-gutters">
         <div class="col-lg-5 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-7 my-auto showcase-text" id=team>
+          <p style="text-align:right"><a style="text-decoration:none" href=#><i class="fa fa-home fa-2x m-auto text-primary"></i></a></p>
+          <br>
           <h2>Who we are</h2>
             <p class="lead mb-0">Editorial Team</p>
           <ul class="lead mb-0">
@@ -211,6 +215,8 @@ header .overlay {
       <div class="row no-gutters">
         <div class="col-lg-5 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
         <div class="col-lg-7 order-lg-1 my-auto showcase-text" id=resources>
+          <p><a style="text-decoration:none" href=#><i class="fa fa-home fa-2x m-auto text-primary"></i></a></p>
+          <br>
           <h2>Useful resources</h2>
           <ul class="lead mb-0">
               <li>Online Training in Evidence Synthesis Methods</li>
@@ -218,8 +224,10 @@ header .overlay {
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-5 order-lg-1 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-5 order-lg-1 text-white showcase-img" style="background-image: url('img/bg-showcase-4.jpg');"></div>
         <div class="col-lg-7 order-lg-2 my-auto showcase-text" id=contact>
+          <p style="text-align:right"><a style="text-decoration:none" href=#><i class="fa fa-home fa-2x m-auto text-primary"></i></a></p>
+          <br>
           <h2>Contact us</h2>
           <p class="lead mb-0">If you would like to know more about the activities of the group, or if you would like to find out more about how to get involved (including commissioning training courses, publishing systematic reviews or maps, or supporting the group's activities, please <a href="mailto:email@address.com">email us</a>.</p>
         </div>
@@ -235,11 +243,23 @@ header .overlay {
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
           <ul class="list-inline mb-2">
             <li class="list-inline-item">
+              <a href="#home">Home</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
               <a href="#about">About</a>
             </li>
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
+              <a href="#resources">Resources</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
               <a href="#contact">Contact</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="https://campbellcollaboration.org/">Campbell Collaboration</a>
             </li>
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">&copy; Neal Haddaway 2020. All Rights Reserved.</p>
